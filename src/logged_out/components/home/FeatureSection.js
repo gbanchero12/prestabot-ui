@@ -34,7 +34,7 @@ const features = [
     color: "#6200EA",
     headline: "Mejora tus colocaciones",
     text:
-    "Con Presta-Bot podrás cubrir la demanda de tus clientes. Estando disponible 24/7 todos los días del año, mejorando tus colocaciones en pocas semanas.",
+    "Con PrestaBot podrás cubrir la demanda de tus clientes. Estando disponible 24/7 todos los días del año, mejorando tus colocaciones en pocas semanas.",
     icon: <EqualizerIcon style={{ fontSize: iconSize }} />,
     mdDelay: "200",
     smDelay: "200"

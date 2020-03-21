@@ -234,7 +234,8 @@ function Footer(props) {
               Nosotros
             </Typography>
             <Typography style={{ color: "#8f9296" }} paragraph>
-              Somo una empresa dedicada a la creacion de bots inteligentes para empresas del compañias financiero.
+              Somo una empresa dedicada a la creacion de bots 
+              inteligentes para compañias del sector financiero.
             </Typography>
             <Box display="flex">
               {socialIcons.map((socialIcon, index) => (

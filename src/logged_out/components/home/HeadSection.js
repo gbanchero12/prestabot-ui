@@ -15,6 +15,7 @@ import {
 import headerImage from "../../dummy_data/images/317341-P8WXUF-138.svg";
 import WaveBorder from "../../../shared/components/WaveBorder";
 
+
 const styles = theme => ({
   extraLargeButtonLabel: {
     fontSize: theme.typography.body1.fontSize,
@@ -134,7 +135,7 @@ function HeadSection(props) {
                             variant={isWidthUp("lg", width) ? "h6" : "body1"}
                             color="textSecondary"
                           >
-                            Con el chat-bot de PrestaBot, olvidate de gastar dinero en call-center. 
+                            Con el chatbot de PrestaBot, olvidate de gastar dinero en call-center. 
                             Brindá una atención personalizada las 24 horas
                             del día!
                             
@@ -146,7 +147,7 @@ function HeadSection(props) {
                           fullWidth
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
-                          href="https://github.com/dunky11/react-saas-template"
+                          href="mailto:gbanchero12@gmail.com"
                         >
                           CONTACTANOS
                         </Button>

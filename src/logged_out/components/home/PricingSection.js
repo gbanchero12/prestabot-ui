@@ -108,7 +108,7 @@ function PricingSection(props) {
             data-aos-delay={isWidthUp("md", width) ? "400" : "0"}
           >
             <PriceCard
-              title="Tycoon*"
+              title="Tycoon"
               pricing={
                 <span>
                   Desde USD 1990
@@ -117,7 +117,7 @@ function PricingSection(props) {
               }
               features={["Hasta 10.000 interacciones por mes"
               , "Soporte 24/7", "Acceso a tus datos en tiempo real"
-            ,"Integracion con sistema de la empresa *Sujeto a presupuesto",]}
+            ,"Integracion con sistema de la empresa","Presupuesto sujeto a requerimientos de negocio",]}
             />
           </Grid>
           
