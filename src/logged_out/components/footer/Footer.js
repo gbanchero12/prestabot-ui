@@ -76,9 +76,17 @@ const styles = theme => ({
 });
 
 const infos = [
+  
   {
     icon: <PhoneIcon />,
+    description: "+598 93 759 155"
+  },{
+    icon: <PhoneIcon />,
     description: "+598 99 093 041"
+  },
+  {
+    icon: <MailIcon />,
+    description: "eliasmarca@gmail.com"
   },
   {
     icon: <MailIcon />,

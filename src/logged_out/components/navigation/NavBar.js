@@ -60,7 +60,7 @@ function NavBar(props) {
       name: "Home",
       icon: <HomeIcon className="text-white" />
     },
-    {
+    /*{
       link: "/blog",
       name: "Blog",
       icon: <BookIcon className="text-white" />
@@ -74,7 +74,7 @@ function NavBar(props) {
       name: "Login",
       onClick: openLoginDialog,
       icon: <LockOpenIcon className="text-white" />
-    }
+    }*/
   ];
   return (
     <div className={classes.root}>
