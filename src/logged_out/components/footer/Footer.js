@@ -59,9 +59,9 @@ const styles = theme => ({
     "&:hover": {
       backgroundColor: theme.palette.primary.light
     }
-    
+
   },
-  upIcon:{
+  upIcon: {
     fill: theme.palette.common.white,
     backgroundColor: "#33383b",
     borderRadius: theme.shape.borderRadius,
@@ -69,9 +69,9 @@ const styles = theme => ({
       backgroundColor: theme.palette.primary.light
     },
     marginTop: theme.spacing(2.5),
-    href:"#"
-    
-    
+    href: "#"
+
+
   },
   link: {
     cursor: "Pointer",
@@ -180,78 +180,78 @@ function Footer(props) {
         <Grid container spacing={isWidthUp("md", width) ? 10 : 5}>
 
 
-        <Hidden mdDown>
-          <Grid item xs={12} md={6} lg={4}>
-            <Typography 
-            id="mail"
-            variant="h6" paragraph className="text-white">
-              Nosotros
-            </Typography>
-            <Typography style={{ color: "#8f9296" }} paragraph>
-              Somos una empresa dedicada a la creacion de bots 
-              inteligentes para compañias del sector financiero.
-            </Typography>
-            <Box display="flex">
-              {socialIcons.map((socialIcon, index) => (
-                <Box key={index} mr={index !== socialIcons.length - 1 ? 1 : 0}>
-                  <IconButton
-                    aria-label={socialIcon.label}
-                    className={classes.socialIcon}
-                    href={socialIcon.href}
-                  >
-                    {socialIcon.icon}
-                  </IconButton>
-                </Box>
-              ))}
-            </Box>
-          </Grid>
-          </Hidden>
-            <Grid item xs={12} md={8} lg={6}>
-              <Box display="flex" justifyContent="center">
-                <div>
-                  {infos.map((info, index) => (
-                    <Box display="flex" mb={1} key={index}>
-                      <Box mr={2}>
-                        <IconButton
-                          className={classes.infoIcon}
-                          tabIndex={-1}
-                          disabled
-                        >
-                          {info.icon}
-                        </IconButton>
-                      </Box>
-                      <Box
-                        display="flex"
-                        flexDirection="column"
-                        justifyContent="center"
-                      >
-                        <Typography variant="h6" className="text-white">
-                          {info.description}
-                        </Typography>
-                      </Box>
-                    </Box>
-                  ))}
-                </div>
-              </Box>
-          
-            </Grid>
-         
-          
-          <Grid item xs={12} md={3} lg={2}>
-           
-              
-          
+          <Hidden mdDown>
+            <Grid item xs={12} md={6} lg={4}>
+              <Typography
 
-                <a href="#"><ArrowUpwardIcon
-                 style={{ fontSize: 40 }}
-                  className={classes.upIcon}
-                  ></ArrowUpwardIcon></a>
-                  <Typography 
-            variant="h6" paragraph className="text-white">
+                variant="h6" paragraph className="text-white">
+                Nosotros
+            </Typography>
+              <Typography style={{ color: "#8f9296" }} paragraph>
+                Somos una empresa dedicada a la creacion de bots
+                inteligentes para compañias del sector financiero.
+            </Typography>
+              <Box display="flex">
+                {socialIcons.map((socialIcon, index) => (
+                  <Box key={index} mr={index !== socialIcons.length - 1 ? 1 : 0}>
+                    <IconButton
+                      aria-label={socialIcon.label}
+                      className={classes.socialIcon}
+                      href={socialIcon.href}
+                    >
+                      {socialIcon.icon}
+                    </IconButton>
+                  </Box>
+                ))}
+              </Box>
+            </Grid>
+          </Hidden>
+          <Grid item xs={12} md={8} lg={6}>
+            <Box display="flex" justifyContent="center">
+              <div>
+                {infos.map((info, index) => (
+                  <Box display="flex" mb={1} key={index}>
+                    <Box mr={2}>
+                      <IconButton
+                        className={classes.infoIcon}
+                        tabIndex={-1}
+                        disabled
+                      >
+                        {info.icon}
+                      </IconButton>
+                    </Box>
+                    <Box
+                      display="flex"
+                      flexDirection="column"
+                      justifyContent="center"
+                    >
+                      <Typography variant="h6" className="text-white">
+                        {info.description}
+                      </Typography>
+                    </Box>
+                  </Box>
+                ))}
+              </div>
+            </Box>
+
+          </Grid>
+
+
+          <Grid item xs={12} md={3} lg={2}>
+
+
+
+
+            <a href="#"><ArrowUpwardIcon id="mail"
+              style={{ fontSize: 40 }}
+              className={classes.upIcon}
+            ></ArrowUpwardIcon></a>
+            <Typography
+              variant="h6" paragraph className="text-white">
               Volver arriba!
             </Typography>
-              
-            
+
+
           </Grid>
 
 
