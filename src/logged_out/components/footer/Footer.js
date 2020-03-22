@@ -16,6 +16,7 @@ import MailIcon from "@material-ui/icons/Mail";
 import WaveBorder from "../../../shared/components/WaveBorder";
 import transitions from "@material-ui/core/styles/transitions";
 import ColoredButton from "../../../shared/components/ColoredButton";
+import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 
 const styles = theme => ({
   footerInner: {
@@ -58,6 +59,19 @@ const styles = theme => ({
     "&:hover": {
       backgroundColor: theme.palette.primary.light
     }
+    
+  },
+  upIcon:{
+    fill: theme.palette.common.white,
+    backgroundColor: "#33383b",
+    borderRadius: theme.shape.borderRadius,
+    "&:hover": {
+      backgroundColor: theme.palette.primary.light
+    },
+    marginTop: theme.spacing(2.5),
+    href:"#"
+    
+    
   },
   link: {
     cursor: "Pointer",
@@ -172,35 +186,9 @@ function Footer(props) {
       />
       <div className={classes.footerInner}>
         <Grid container spacing={isWidthUp("md", width) ? 10 : 5}>
-          <Grid item xs={12} md={6} lg={4}>
-            <form>
-              <Box display="flex" flexDirection="column">
-                <Box mb={1}>
-                  <TextField
-                    variant="outlined"
-                    multiline
-                    placeholder="Get in touch with us"
-                    inputProps={{ "aria-label": "Get in Touch" }}
-                    InputProps={{
-                      className: classes.whiteBg
-                    }}
-                    rows={4}
-                    fullWidth
-                    required
-                  />
-                </Box>
-                <ColoredButton
-                  color={theme.palette.common.white}
-                  variant="outlined"
-                  type="submit"
-                >
-                  Send Message
-                </ColoredButton>
-              </Box>
-            </form>
-          </Grid>
+          
           <Hidden mdDown>
-            <Grid item xs={12} md={6} lg={4}>
+            <Grid item xs={12} md={8} lg={6}>
               <Box display="flex" justifyContent="center">
                 <div>
                   {infos.map((info, index) => (
@@ -229,8 +217,11 @@ function Footer(props) {
               </Box>
             </Grid>
           </Hidden>
+          
           <Grid item xs={12} md={6} lg={4}>
-            <Typography variant="h6" paragraph className="text-white">
+            <Typography 
+            id="mail"
+            variant="h6" paragraph className="text-white">
               Nosotros
             </Typography>
             <Typography style={{ color: "#8f9296" }} paragraph>
@@ -251,6 +242,25 @@ function Footer(props) {
               ))}
             </Box>
           </Grid>
+
+          <Grid item xs={12} md={3} lg={2}>
+           
+              
+          
+
+                <a href="#"><ArrowUpwardIcon
+                 style={{ fontSize: 40 }}
+                  className={classes.upIcon}
+                  ></ArrowUpwardIcon></a>
+                  <Typography 
+            variant="h6" paragraph className="text-white">
+              Volver arriba!
+            </Typography>
+              
+            
+          </Grid>
+
+
         </Grid>
       </div>
     </footer>
