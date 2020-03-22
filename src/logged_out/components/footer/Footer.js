@@ -183,7 +183,6 @@ function Footer(props) {
         <Hidden mdDown>
           <Grid item xs={12} md={6} lg={4}>
             <Typography 
-            id="mail"
             variant="h6" paragraph className="text-white">
               Nosotros
             </Typography>
@@ -242,7 +241,7 @@ function Footer(props) {
               
           
 
-                <a href="#"><ArrowUpwardIcon
+                <a href="#"><ArrowUpwardIcon id="mail"
                  style={{ fontSize: 40 }}
                   className={classes.upIcon}
                   ></ArrowUpwardIcon></a>
