@@ -101,7 +101,8 @@ class CookieConsent extends PureComponent {
         open={this.state.visible}
         message={
           <Typography className="text-white">
-            We use cookies to ensure you get the best experience on our website.{" "}
+            Usamos cockies para asegurarnos que tienes la mejor experiencia 
+            en nuestro sitio web.{" "}
           </Typography>
         }
         action={

@@ -147,7 +147,7 @@ function HeadSection(props) {
                           fullWidth
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
-                          href="mailto:gbanchero12@gmail.com"
+                          href="#mail"
                         >
                           CONTACTANOS
                         </Button>
