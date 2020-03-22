@@ -90,17 +90,9 @@ const styles = theme => ({
 });
 
 const infos = [
-  
   {
-    icon: <PhoneIcon />,
-    description: "+598 93 759 155"
-  },{
     icon: <PhoneIcon />,
     description: "+598 99 093 041"
-  },
-  {
-    icon: <MailIcon />,
-    description: "eliasmarca@gmail.com"
   },
   {
     icon: <MailIcon />,
@@ -186,8 +178,34 @@ function Footer(props) {
       />
       <div className={classes.footerInner}>
         <Grid container spacing={isWidthUp("md", width) ? 10 : 5}>
-          
-          <Hidden mdDown>
+
+
+        <Hidden mdDown>
+          <Grid item xs={12} md={6} lg={4}>
+            <Typography 
+            id="mail"
+            variant="h6" paragraph className="text-white">
+              Nosotros
+            </Typography>
+            <Typography style={{ color: "#8f9296" }} paragraph>
+              Somos una empresa dedicada a la creacion de bots 
+              inteligentes para compañias del sector financiero.
+            </Typography>
+            <Box display="flex">
+              {socialIcons.map((socialIcon, index) => (
+                <Box key={index} mr={index !== socialIcons.length - 1 ? 1 : 0}>
+                  <IconButton
+                    aria-label={socialIcon.label}
+                    className={classes.socialIcon}
+                    href={socialIcon.href}
+                  >
+                    {socialIcon.icon}
+                  </IconButton>
+                </Box>
+              ))}
+            </Box>
+          </Grid>
+          </Hidden>
             <Grid item xs={12} md={8} lg={6}>
               <Box display="flex" justifyContent="center">
                 <div>
@@ -215,34 +233,10 @@ function Footer(props) {
                   ))}
                 </div>
               </Box>
-            </Grid>
-          </Hidden>
           
-          <Grid item xs={12} md={6} lg={4}>
-            <Typography 
-            id="mail"
-            variant="h6" paragraph className="text-white">
-              Nosotros
-            </Typography>
-            <Typography style={{ color: "#8f9296" }} paragraph>
-              Somo una empresa dedicada a la creacion de bots 
-              inteligentes para compañias del sector financiero.
-            </Typography>
-            <Box display="flex">
-              {socialIcons.map((socialIcon, index) => (
-                <Box key={index} mr={index !== socialIcons.length - 1 ? 1 : 0}>
-                  <IconButton
-                    aria-label={socialIcon.label}
-                    className={classes.socialIcon}
-                    href={socialIcon.href}
-                  >
-                    {socialIcon.icon}
-                  </IconButton>
-                </Box>
-              ))}
-            </Box>
-          </Grid>
-
+            </Grid>
+         
+          
           <Grid item xs={12} md={3} lg={2}>
            
               
