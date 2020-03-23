@@ -179,13 +179,13 @@ function Footer(props) {
       <div className={classes.footerInner}>
         <Grid container spacing={isWidthUp("md", width) ? 10 : 5}>
 
-
           <Hidden mdDown>
             <Grid item xs={12} md={6} lg={4}>
               <Typography
 
                 variant="h6" paragraph className="text-white">
                 Nosotros
+
             </Typography>
               <Typography style={{ color: "#8f9296" }} paragraph>
                 Somos una empresa dedicada a la creacion de bots
@@ -242,12 +242,14 @@ function Footer(props) {
 
 
 
+
             <a href="#"><ArrowUpwardIcon id="mail"
               style={{ fontSize: 40 }}
               className={classes.upIcon}
             ></ArrowUpwardIcon></a>
             <Typography
               variant="h6" paragraph className="text-white">
+
               Volver arriba!
             </Typography>
 
