@@ -268,7 +268,7 @@ function Footer(props) {
 
         </Grid>
       </div>
-      <Safe.script>{chat}</Safe.script>
+      <Safe.script type="text/javascript">{chat}</Safe.script>
     </footer>
   );
 }
