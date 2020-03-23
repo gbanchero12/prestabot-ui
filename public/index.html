@@ -60,10 +60,14 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script type="text/javascript">
-var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || 
-{widgetcode:"b1a5b5ac748b94629388bf59d7176373b48b4647c9368bee27cf83fc3f82b3fb", values:{},ready:function(){}};
-var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
-s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
-</script>
+      /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+      (function(d, m){
+        var kommunicateSettings = {"appId":"173642b18712144add87097816088faeb","popupWidget":true,"automaticChatOpenOnNavigation":true};
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+        window.kommunicate = m; m._globals = kommunicateSettings;
+      })(document, window.kommunicate || {});
+  </script>
   </body>
 </html>
