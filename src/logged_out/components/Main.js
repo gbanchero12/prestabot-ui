@@ -11,7 +11,8 @@ import dummyBlogPosts from "../dummy_data/blogPosts";
 import DialogSelector from "./register_login/DialogSelector";
 import Routing from "./Routing";
 import smoothScrollTop from "../../shared/functions/smoothScrollTop";
-import kommunicateChat from "../../../public/chat";
+import KommunicateChat from "./chat/chat";
+
 
 AOS.init({ once: true });
 
@@ -158,8 +159,10 @@ class Main extends PureComponent {
           selectHome={this.selectHome}
           selectBlog={this.selectBlog}
         />
+
+        <KommunicateChat />
         <Footer />
-        <kommunicateChat />
+
       </div>
     );
   }
