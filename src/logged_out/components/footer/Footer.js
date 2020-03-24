@@ -17,8 +17,6 @@ import WaveBorder from "../../../shared/components/WaveBorder";
 import transitions from "@material-ui/core/styles/transitions";
 import ColoredButton from "../../../shared/components/ColoredButton";
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
-import Safe from "react-safe"
-
 
 const styles = theme => ({
   footerInner: {
