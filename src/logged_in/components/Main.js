@@ -245,7 +245,7 @@ class Main extends PureComponent {
 
   selectDashboard = () => {
     smoothScrollTop();
-    document.title = "FinancialBot - Dashboard";
+    document.title = "PrestaBot - Dashboard";
     this.setState({
       selectedTab: "Dashboard"
     });
@@ -259,7 +259,7 @@ class Main extends PureComponent {
 
   selectPosts = () => {
     smoothScrollTop();
-    document.title = "FinancialBot - Posts";
+    document.title = "PrestaBot - Posts";
     this.setState({
       selectedTab: "Posts"
     });
@@ -291,7 +291,7 @@ class Main extends PureComponent {
 
   selectSubscription = () => {
     smoothScrollTop();
-    document.title = "FinancialBot - Subscription";
+    document.title = "PrestaBot - Subscription";
     this.setState({
       selectedTab: "Subscription"
     });

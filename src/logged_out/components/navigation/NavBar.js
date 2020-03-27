@@ -87,7 +87,7 @@ function NavBar(props) {
               display="inline"
               color="secondary"
             >
-            Financial 
+            PRESTA 
 
             </Typography>
             <Typography
