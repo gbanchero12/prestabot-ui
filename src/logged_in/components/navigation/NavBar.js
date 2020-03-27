@@ -249,7 +249,7 @@ class NavBar extends PureComponent {
                   display="inline"
                   color="primary"
                 >
-                  Presta
+                  Financial
                 </Typography>
                 <Typography
                   variant="h4"

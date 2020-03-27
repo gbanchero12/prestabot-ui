@@ -112,7 +112,7 @@ function PricingSection(props) {
               pricing={
                 <span>
                   Desde USD 1990
-                  <Typography display="inline"> / month</Typography>
+                 
                 </span>
               }
               features={["Hasta 10.000 interacciones por mes"

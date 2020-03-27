@@ -41,13 +41,13 @@ class Main extends PureComponent {
   selectHome = () => {
     smoothScrollTop();
     document.title =
-      "PrestaBot - Una aplicacion pensada para gestionar tus prestamos.";
+      "FinancialBot - Una aplicacion pensada para gestionar tus Financialmos.";
     this.setState({ selectedTab: "Home" });
   };
 
   selectBlog = () => {
     smoothScrollTop();
-    document.title = "PrestaBot - Blog";
+    document.title = "FinancialBot - Blog";
     this.setState({ selectedTab: "Blog" });
   };
 

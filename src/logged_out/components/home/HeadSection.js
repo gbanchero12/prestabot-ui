@@ -124,7 +124,7 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          PrestaBot. Una aplicación pensada para 
+                          FinancialBot. Una aplicación pensada para 
                           la gestión de préstamos
                           del sector financiero.
                         </Typography>
@@ -135,7 +135,7 @@ function HeadSection(props) {
                             variant={isWidthUp("lg", width) ? "h6" : "body1"}
                             color="textSecondary"
                           >
-                            Con el chatbot de PrestaBot, olvidate de gastar dinero en call-center. 
+                            Con el chatbot de Financial, olvidate de gastar dinero en call-center. 
                             Brindá una atención personalizada las 24 horas
                             del día!
                             
