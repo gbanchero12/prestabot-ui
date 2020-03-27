@@ -91,13 +91,14 @@ const styles = theme => ({
 
 const infos = [
   {
-    icon: <PhoneIcon />,
-    description: "+598 99 093 041"
-  },
-  {
     icon: <MailIcon />,
     description: "contacto@prestabot-uy.com"
   }
+  , {
+    icon: <PhoneIcon />,
+    description: "+598 99 093 041"
+  },
+
 ];
 
 const socialIcons = [

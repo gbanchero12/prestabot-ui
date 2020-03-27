@@ -3,7 +3,7 @@
   "name": "WaVer react template",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "favicon.png",
       "sizes": "64x64 32x32 16x16",
       "type": "image/x-icon"
     },
