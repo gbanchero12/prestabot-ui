@@ -96,7 +96,7 @@ const infos = [
   },
   {
     icon: <MailIcon />,
-    description: "gbanchero25@gmail.com"
+    description: "contacto@prestabot-uy.com"
   }
 ];
 
