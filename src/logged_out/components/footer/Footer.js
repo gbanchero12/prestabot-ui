@@ -92,7 +92,7 @@ const styles = theme => ({
 const infos = [
   {
     icon: <MailIcon />,
-    description: "contacto@prestabot-uy.com"
+    description: <a href="mailto:contacto@prestabot-uy.com">contacto@prestabot-uy.com</a>
   }
   , {
     icon: <PhoneIcon />,

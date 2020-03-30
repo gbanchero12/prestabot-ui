@@ -56,6 +56,11 @@ function NavBar(props) {
   } = props;
   const menuItems = [
     {
+      redirect:"http://botdeemprestimo.com",
+      name: "Portugués",
+      icon: <HomeIcon className="text-white" />
+    },
+    {
       link: "/",
       name: "Home",
       icon: <HomeIcon className="text-white" />
@@ -129,6 +134,17 @@ function NavBar(props) {
                       </Button>
                     </Link>
                   );
+                }
+                if (element.redirect){
+                  return (<a className={classes.noDecoration} href="http://http://botdeemprestimo.com">
+                    <Button
+                      color="secondary"
+                      size="large"
+                      classes={{ text: classes.menuButtonText }}
+                    >
+                      {element.name}
+                    </Button>
+                    </a>)
                 }
                 return (
                   <Button
