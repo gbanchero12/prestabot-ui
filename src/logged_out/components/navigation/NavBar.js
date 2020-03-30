@@ -136,7 +136,7 @@ function NavBar(props) {
                   );
                 }
                 if (element.redirect){
-                  return (<a className={classes.noDecoration} href="http://botdeemprestimo.com">
+                  return (<a href="http://botdeemprestimo.com">
                     <Button
                       color="secondary"
                       size="large"
