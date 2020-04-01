@@ -41,7 +41,7 @@ class Main extends PureComponent {
   selectHome = () => {
     smoothScrollTop();
     document.title =
-      "PrestaBot - Una aplicacion pensada para gestionar tus prestamos.";
+      "Bot para casas de prestamos y bancos en español - PrestaBot - Con nuestro software ahorra dinero en soportes tradicionales. Brindá una atención personalizada las 24 horas del día.";
     this.setState({ selectedTab: "Home" });
   };
 

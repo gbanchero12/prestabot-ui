@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Switch } from "react-router-dom";
+import { Switch, Redirect, Route } from "react-router-dom";
 import PropsRoute from "../../shared/components/PropsRoute";
 import Home from "./home/Home";
-import Blog from "./blog/Blog";
+//import Blog from "./blog/Blog";
 import BlogPost from "./blog/BlogPost";
 
 function Routing(props) {
@@ -24,13 +24,7 @@ function Routing(props) {
           otherArticles={blogPosts.filter(blogPost => blogPost.id !== post.id)}
         />
       ))}
-      <PropsRoute
-        exact
-        path="/blog"
-        component={Blog}
-        selectBlog={selectBlog}
-        blogPosts={blogPosts}
-      />
+      
       )
       <PropsRoute path="/" component={Home} selectHome={selectHome} />)
     </Switch>
