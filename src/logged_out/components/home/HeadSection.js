@@ -122,7 +122,7 @@ function HeadSection(props) {
                     >
                       <Box mb={4}>
                         <Typography
-                          variant={isWidthUp("lg", width) ? "h3" : "h4"}
+                          variant={isWidthUp("lg", width) ? "h4" : "h5"}
                         >
                          <h1> PrestaBot. </h1> Una aplicación pensada para 
                           la gestión de préstamos
