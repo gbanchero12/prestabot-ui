@@ -124,7 +124,7 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          PrestaBot. Una aplicación pensada para 
+                         <h1> PrestaBot. </h1> Una aplicación pensada para 
                           la gestión de préstamos
                           del sector financiero.
                         </Typography>
