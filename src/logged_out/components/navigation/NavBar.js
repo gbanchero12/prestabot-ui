@@ -12,9 +12,6 @@ import {
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import HomeIcon from "@material-ui/icons/Home";
-import HowToRegIcon from "@material-ui/icons/HowToReg";
-import LockOpenIcon from "@material-ui/icons/LockOpen";
-import BookIcon from "@material-ui/icons/Book";
 import NavigationDrawer from "../../../shared/components/NavigationDrawer";
 
 const styles = theme => ({
@@ -55,11 +52,7 @@ function NavBar(props) {
     selectedTab
   } = props;
   const menuItems = [
-    {
-      redirect:"http://botdeemprestimo.com",
-      name: "Portugués",
-      icon: <HomeIcon className="text-white" />
-    },
+    
     {
       link: "/",
       name: "Home",
@@ -92,7 +85,7 @@ function NavBar(props) {
               display="inline"
               color="secondary"
             >
-            PRESTA 
+            BOTS 
 
             </Typography>
             <Typography
@@ -101,7 +94,7 @@ function NavBar(props) {
               display="inline"
               color="primary"
             >
-            BOT    
+            URUGUAY    
 
             </Typography>
           </div>
@@ -134,17 +127,6 @@ function NavBar(props) {
                       </Button>
                     </Link>
                   );
-                }
-                if (element.redirect){
-                  return (<a href="http://botdeemprestimo.com">
-                    <Button
-                      color="secondary"
-                      size="large"
-                      classes={{ text: classes.menuButtonText }}
-                    >
-                      {element.name}
-                    </Button>
-                    </a>)
                 }
                 return (
                   <Button

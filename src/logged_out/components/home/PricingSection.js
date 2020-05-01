@@ -62,7 +62,7 @@ function PricingSection(props) {
             item
             xs={12}
             sm={6}
-            lg={4}
+            lg={6}
             className={classes.cardWrapper}
             data-aos="zoom-in-up"
           >
@@ -70,11 +70,11 @@ function PricingSection(props) {
               title="Business"
               pricing={
                 <span>
-                  USD 590
+                  USD 350
                   <Typography display="inline"> / month</Typography>
                 </span>
               }
-              features={["Hasta 10.000 interacciones por mes", "Soporte 24/7", "Acceso a tus datos en tiempo real"]}
+              features={["USD 0.010 por mensaje de salida", "Soporte 24/7", "Acceso a tus datos en tiempo real"]}
             />
           </Grid>
           <Grid
@@ -82,44 +82,23 @@ function PricingSection(props) {
             className={classes.cardWrapperHighlighted}
             xs={12}
             sm={6}
-            lg={4}
+            lg={6}
             data-aos="zoom-in-up"
             data-aos-delay="200"
           >
             <PriceCard
               highlighted
-              title="WhatsApp Premium"
+              title="WhatsApp Integration"
               pricing={
                 <span>
-                  USD 1490
+                  USD 500
                   <Typography display="inline"> / month</Typography>
                 </span>
               }
-              features={["Hasta 10.000 interacciones por mes", "Soporte 24/7", "Acceso a tus datos en tiempo real", "Integracion con Whatsapp"]}
+              features={["USD 0.010 por mensaje de salida", "Soporte 24/7", "Acceso a tus datos en tiempo real", "Integracion con Whatsapp"]}
             />
           </Grid>
-          <Grid
-            item
-            className={classes.cardWrapper}
-            xs={12}
-            sm={12}
-            lg={4}
-            data-aos="zoom-in-up"
-            data-aos-delay={isWidthUp("md", width) ? "400" : "0"}
-          >
-            <PriceCard
-              title="Tycoon"
-              pricing={
-                <span>
-                  Desde USD 1990
-                  <Typography display="inline"> / month</Typography>
-                </span>
-              }
-              features={["Hasta 10.000 interacciones por mes"
-              , "Soporte 24/7", "Acceso a tus datos en tiempo real"
-            ,"Integracion con sistema de la empresa","Presupuesto sujeto a requerimientos de negocio",]}
-            />
-          </Grid>
+          
           
         </Grid>
       </div>

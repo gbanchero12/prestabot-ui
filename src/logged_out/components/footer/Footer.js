@@ -9,7 +9,8 @@ import {
   withStyles,
   withWidth,
   isWidthUp,
-  TextField
+  TextField,
+  Link
 } from "@material-ui/core";
 import PhoneIcon from "@material-ui/icons/Phone";
 import MailIcon from "@material-ui/icons/Mail";
@@ -92,7 +93,7 @@ const styles = theme => ({
 const infos = [
   {
     icon: <MailIcon />,
-    description: <a href="mailto:contacto@prestabot-uy.com">contacto@prestabot-uy.com</a>
+    description: <Link href="mailto:contacto@BotsUruguay-uy.com">E-mail</Link>
   }
   , {
     icon: <PhoneIcon />,
@@ -148,7 +149,7 @@ const socialIcons = [
       </svg>
     ),
     label: "LinkedIn",
-    href: "https://www.linkedin.com/"
+    href: "https://www.linkedin.com/in/guillermo-banchero-arbuet"
   },
   {
     icon: (
@@ -189,8 +190,8 @@ function Footer(props) {
 
             </Typography>
               <Typography style={{ color: "#FFF" }} paragraph>
-                Somos una empresa dedicada a la creacion de bots
-                inteligentes para compañias del sector financiero.
+                Somos una empresa dedicada a la creación de bots
+                inteligentes customizados de Uruguay.
             </Typography>
               <Box display="flex">
                 {socialIcons.map((socialIcon, index) => (

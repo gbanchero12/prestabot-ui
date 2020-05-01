@@ -25,7 +25,7 @@ const features = [
     color: "#304FFE",
     headline: "Respuestas inmediatas",
     text:
-      "PrestaBot se encarga de crear respuestas con algoritmos de tecnología artificial, rápidas y eficientes según los requerimientos de nuestros clientes.",
+      "BotsUruguay se encarga de crear respuestas con algoritmos de tecnología artificial, rápidas y eficientes según los requerimientos de nuestros clientes.",
     icon: <CloudIcon style={{ fontSize: iconSize }} />,
     mdDelay: "0",
     smDelay: "0"
@@ -34,7 +34,7 @@ const features = [
     color: "#6200EA",
     headline: "Mejora tus colocaciones",
     text:
-    "Con PrestaBot podrás cubrir la demanda de tus clientes. Estando disponible 24/7 todos los días del año, mejorando tus colocaciones en pocas semanas.",
+    "Con BotsUruguay podrás cubrir la demanda de tus clientes. Estando disponible 24/7 todos los días del año, mejorando tus colocaciones en pocas semanas.",
     icon: <EqualizerIcon style={{ fontSize: iconSize }} />,
     mdDelay: "200",
     smDelay: "200"
@@ -43,7 +43,7 @@ const features = [
     color: "#00C853",
     headline: "Integraciones",
     text:
-      "Tenemos integración con Whatsapp Business, puedes obtener tu numero personalizado y el bot se encarga de responder por vos. Consulta por integración con Faceook, mensajes SMS, entre otros.",
+      "Tenemos integración con Whatsapp, puedes obtener tu numero personalizado y el bot se encarga de responder por vos. Consulta por integración con Faceook, mensajes SMS, entre otros.",
     icon: <WhatsAppIcon style={{ fontSize: iconSize }} />,
     mdDelay: "400",
     smDelay: "0"
@@ -61,7 +61,7 @@ const features = [
     color: "#64DD17",
     headline: "Productividad",
     text:
-      "PrestaBot es capaz de dar respuestas cognitivas certeras, por lo que debeŕa re-asginar tareas dentro de su equipo de trabajo.",
+      "BotsUruguay es capaz de dar respuestas cognitivas certeras, por lo que debeŕa re-asginar tareas dentro de su equipo de trabajo.",
     icon: <TrendingUpIcon style={{ fontSize: iconSize }} />,
     mdDelay: "400",
     smDelay: "200"
@@ -70,7 +70,7 @@ const features = [
     color: "#0091EA",
     headline: "Precios",
     text:
-      "Nos enfocamos y especializamos en crear bots enfocados en casas de prestamo, por lo que manejamos los precios mas competitivos del mercado.",
+      "Somos una software factory especializada en la creación de bots customizados, por lo que manejamos los precios mas competitivos del mercado.",
     icon: <AttachMoneyIcon style={{ fontSize: iconSize }} />,
     mdDelay: "0",
     smDelay: "200"
@@ -79,7 +79,7 @@ const features = [
     color: "#C51162",
     headline: "Soporte",
     text:
-    "En PrestaBot estamos atentos a las solicitudes de nuestros clientes las 24 horas del día. ",
+    "En BotsUruguay estamos atentos a las solicitudes de nuestros clientes las 24 horas del día. ",
     icon: <BuildIcon style={{ fontSize: iconSize }} />,
     mdDelay: "0",
     smDelay: "0"

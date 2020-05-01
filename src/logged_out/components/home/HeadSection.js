@@ -12,7 +12,7 @@ import {
   withWidth,
   isWidthUp
 } from "@material-ui/core";
-import headerImage from "../../dummy_data/images/317341-P8WXUF-138.svg";
+import headerImage from "../../dummy_data/images/agente.jpg";
 import WaveBorder from "../../../shared/components/WaveBorder";
 
 
@@ -124,9 +124,8 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h4" : "h5"}
                         >
-                         <h1> PrestaBot. </h1> Una aplicación pensada para 
-                          la gestión de préstamos
-                          del sector financiero.
+                         <h1> BotsUruguay.com </h1> Una aplicación pensada para 
+                          la gestión de empresas.
                         </Typography>
                       </Box>
                       <div>
@@ -135,10 +134,8 @@ function HeadSection(props) {
                             variant={isWidthUp("lg", width) ? "h6" : "body1"}
                             color="textSecondary"
                           >
-                            Con el chatbot de PrestaBot, olvidate de gastar dinero en call-center. 
-                            Brindá una atención personalizada las 24 horas
-                            del día!
-                            
+                            Con el chatbot de BotsUruguay brindá una atención personalizada las 24 horas
+                            del día. Accedé a la información desde tu celular en tiempo real.
                           </Typography>
                         </Box>
                         <Button
@@ -156,7 +153,7 @@ function HeadSection(props) {
                   </Grid>
                   <Hidden smDown>
                     <Grid item md={6}>
-                      <a href="https://www.freepik.es/fotos-vectores-gratis/telefono"><img
+                      <a href="https://www.freepik.es/vector-gratis/agente-femenino-call-center_3148460.htm"><img
                         src={headerImage}
                         className={classes.image}
                         alt="header example"
