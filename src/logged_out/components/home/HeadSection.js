@@ -124,7 +124,9 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h4" : "h5"}
                         >
-                         <h1> BotsUruguay.com </h1> Una aplicación pensada para 
+                         <h1> BotsUruguay</h1>
+                         <br/><br/>
+                        Una aplicación pensada para 
                           la gestión de empresas.
                         </Typography>
                       </Box>
