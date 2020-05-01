@@ -79,24 +79,25 @@ function NavBar(props) {
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar className={classes.toolbar}>
           <div>
+          <Typography
+              variant="h4"
+              className={classes.brandText}
+              display="inline"
+              color="primary"
+            >
+            Bots    
+
+            </Typography>
             <Typography
               variant="h4"
               className={classes.brandText}
               display="inline"
               color="secondary"
             >
-            BOTS 
+            Uruguay.com 
 
             </Typography>
-            <Typography
-              variant="h4"
-              className={classes.brandText}
-              display="inline"
-              color="primary"
-            >
-            URUGUAY    
-
-            </Typography>
+            
           </div>
           <div>
             <Hidden mdUp>

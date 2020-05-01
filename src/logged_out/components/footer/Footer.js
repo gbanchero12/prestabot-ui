@@ -93,7 +93,7 @@ const styles = theme => ({
 const infos = [
   {
     icon: <MailIcon />,
-    description: <Link href="mailto:contacto@BotsUruguay-uy.com">E-mail</Link>
+    description: <Link color="white" href="mailto:contacto@BotsUruguay-uy.com">Email</Link>
   }
   , {
     icon: <PhoneIcon />,
