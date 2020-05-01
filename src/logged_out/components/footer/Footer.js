@@ -93,11 +93,11 @@ const styles = theme => ({
 const infos = [
   {
     icon: <MailIcon />,
-    description: <Link color="white" href="mailto:contacto@BotsUruguay-uy.com">Email</Link>
+    description: <Link className="text-white" href="mailto:contacto@prestabot-uy.com">Enviar Email</Link>
   }
   , {
     icon: <PhoneIcon />,
-    description: "+598 99 093 041"
+    description: <Link className="text-white" href="https://api.whatsapp.com/send?phone=59899093041&text=Quero%20un%20chatbot%20de%20BotsUruguay!">Contacto</Link>
   },
 
 ];
