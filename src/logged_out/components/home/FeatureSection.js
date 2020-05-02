@@ -43,7 +43,7 @@ const features = [
     color: "#00C853",
     headline: "Integraciones",
     text:
-      "Tenemos integración con Whatsapp, puedes obtener tu numero personalizado y el bot se encarga de responder por vos. Consulta por integración con Faceook, mensajes SMS, entre otros.",
+      "Tenemos integración con Whatsapp, puedes obtener tu numero personalizado y el bot se encarga de responder por vos. Consulta por integración con Facebook, mensajes SMS, entre otros.",
     icon: <WhatsAppIcon style={{ fontSize: iconSize }} />,
     mdDelay: "400",
     smDelay: "0"
@@ -61,7 +61,7 @@ const features = [
     color: "#64DD17",
     headline: "Productividad",
     text:
-      "BotsUruguay es capaz de dar respuestas cognitivas certeras, por lo que debeŕa re-asginar tareas dentro de su equipo de trabajo.",
+      "BotsUruguay es capaz de dar respuestas cognitivas certeras, mejorando la producción del equipo de trabajo.",
     icon: <TrendingUpIcon style={{ fontSize: iconSize }} />,
     mdDelay: "400",
     smDelay: "200"

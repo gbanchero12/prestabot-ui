@@ -41,7 +41,7 @@ class Main extends PureComponent {
   selectHome = () => {
     smoothScrollTop();
     document.title =
-      "Bot para casas de prestamos y bancos en español - BotsUruguay - Con nuestro software ahorra dinero en soportes tradicionales. Brindá una atención personalizada las 24 horas del día.";
+      "BotsUruguay - Con nuestro software gestioná tus clientes las 24 horas del día. Brindá una atención personalizada.";
     this.setState({ selectedTab: "Home" });
   };
 
