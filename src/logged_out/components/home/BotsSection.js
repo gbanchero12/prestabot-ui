@@ -8,7 +8,6 @@ import {
   withWidth,
   withStyles
 } from "@material-ui/core";
-import PriceCard from "./PriceCard";
 import calculateSpacing from "./calculateSpacing";
 import BotCard from "./BotCard"
 import FotoTom from "./../../dummy_data/images/BURY.PNG"
@@ -93,8 +92,8 @@ function BotsSection(props) {
         nombre:"Alexa",
         fechaLanzamiento:"Marzo 20, 2020",
         breveDescripcion:"Habilidad: Gestión de soporte interno",
-        textoPrincipal:"Alexa existe desde marzo del 2020, sus habilidades le permiten gestionar los tickets de soporte interno de las empresas,"
-        + " se conecta con aplicaciones de las empresas permitiéndole a los empleados gestionar sus solicitudes de forma ordenada."
+        textoPrincipal:"Alexa existe desde marzo del 2020, sus habilidades le permiten gestionar los tickets de soporte interno de las empresas."
+        + " Se conecta con aplicaciones permitiéndole a los empleados gestionar sus solicitudes de forma ordenada."
         + " También responde preguntas frecuentes, entre otras funcionalidades.",
         foto:ImagenAlexa,
         logo:LogoAlexa,
