@@ -70,11 +70,11 @@ function PricingSection(props) {
               title="Business"
               pricing={
                 <span>
-                  USD 350
+                  USD 340
                   <Typography display="inline"> / month</Typography>
                 </span>
               }
-              features={["USD 0.010 por mensaje de salida", "Soporte 24/7", "Acceso a tus datos en tiempo real"]}
+              features={["USD 0,012 por mensaje de salida", "Soporte 24/7", "Acceso a tus datos en tiempo real"]}
             />
           </Grid>
           <Grid
@@ -91,11 +91,11 @@ function PricingSection(props) {
               title="WhatsApp Integration"
               pricing={
                 <span>
-                  USD 500
+                  USD 490
                   <Typography display="inline"> / month</Typography>
                 </span>
               }
-              features={["USD 0.010 por mensaje de salida", "Soporte 24/7", "Acceso a tus datos en tiempo real", "Integracion con Whatsapp"]}
+              features={["USD 0,012 por mensaje de salida", "Soporte 24/7", "Acceso a tus datos en tiempo real", "Integracion con Whatsapp"]}
             />
           </Grid>
           
