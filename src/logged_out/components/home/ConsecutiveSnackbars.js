@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ConsecutiveSnackbars() {
+export default function ConsecutiveSnackbars(props) {
   const [snackPack, setSnackPack] = React.useState([]);
   const [open, setOpen] = React.useState(false);
   const [messageInfo, setMessageInfo] = React.useState(undefined);
@@ -47,7 +47,7 @@ export default function ConsecutiveSnackbars() {
   const classes = useStyles();
   return (
     <div>
-     <PlayArrowIcon onClick={handleClick('Habla con Tom para ver demostraciones de prueba!')}>Habla con Tom para ver los chatbots de prueba!</PlayArrowIcon>
+     <PlayArrowIcon onClick={handleClick('Habla con Tom para interactuar ⬇')}>Habla con Tom para interactuar ⬇</PlayArrowIcon>
       
       <Snackbar
         key={messageInfo ? messageInfo.key : undefined}
