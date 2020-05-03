@@ -65,7 +65,7 @@ function BotsSection(props) {
         nombre:"Tom",
         fechaLanzamiento:"Mayo 02, 2020",
         breveDescripcion:"Habilidad: Simpatía",
-        textoPrincipal:"Tom trabaja en Bots Uruguay arduamente desde Mayo de 2020, se dedica"
+        textoPrincipal:"Tom trabaja en Bots Uruguay arduamente desde mayo de 2020, se dedica"
         + " a darle la bienvenida a los clientes de BotsUruguay.com y contarle los servicios que ofrece la empresa.",
         foto:FotoTom,
         logo:LogoTom,
@@ -74,8 +74,8 @@ function BotsSection(props) {
         nombre:"Alberth",
         fechaLanzamiento:"Enero 15, 2020",
         breveDescripcion:"Habilidad: Finanzas",
-        textoPrincipal:"Alberth trabaja en casas de prestamos financieros arduamente desde Enero de 2020, se dedica"
-        + " a darle la bienvenida a los clientes y ofrecer servicios financieros. Puede calcular valores de cutotas y realizar consultas al clearing de informes, entre otras funcionalidades.",
+        textoPrincipal:"Alberth trabaja en casas de préstamos financieros arduamente desde enero de 2020, se dedica"
+        + " a darle la bienvenida a los clientes y ofrecer servicios financieros. Puede calcular valores de cuotas y realizar consultas al clearing de informes, entre otras funcionalidades.",
         foto:ImagenAlberth,
         logo:LogoAlberth,
     },
@@ -83,7 +83,7 @@ function BotsSection(props) {
         nombre:"Iliana",
         fechaLanzamiento:"Febrero 10, 2020",
         breveDescripcion:"Habilidad: Negocios inmobiliarios",
-        textoPrincipal:"Iliana existe desde Febrero del 2020, sus habilidades le permiten realizar una serie de preguntas,"
+        textoPrincipal:"Iliana existe desde febrero del 2020, sus habilidades le permiten realizar una serie de preguntas,"
         + " que permiten filtrar inmuebles en la web según los gustos y las posibilidades de los interesados."
         + " También responde preguntas frecuentes, entre otras funcionalidades.",
         foto:ImagenIliana,
@@ -93,8 +93,8 @@ function BotsSection(props) {
         nombre:"Alexa",
         fechaLanzamiento:"Marzo 20, 2020",
         breveDescripcion:"Habilidad: Gestión de soporte interno",
-        textoPrincipal:"Alexa existe desde Marzo del 2020, sus habilidades le permiten gestionar los tickets de soporte interno de las empresas,"
-        + " se conecta con aplicaciónes de las empresas permitiendole a los empleados gestionar sus solicitudes de forma ordenada."
+        textoPrincipal:"Alexa existe desde marzo del 2020, sus habilidades le permiten gestionar los tickets de soporte interno de las empresas,"
+        + " se conecta con aplicaciones de las empresas permitiéndole a los empleados gestionar sus solicitudes de forma ordenada."
         + " También responde preguntas frecuentes, entre otras funcionalidades.",
         foto:ImagenAlexa,
         logo:LogoAlexa,
