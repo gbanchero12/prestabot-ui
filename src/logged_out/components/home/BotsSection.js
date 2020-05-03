@@ -137,23 +137,6 @@ function BotsSection(props) {
             data-aos-delay="200"
           >
            <BotCard
-           titulo={bots.Iliana.nombre}
-           fechaLanzamiento={bots.Iliana.fechaLanzamiento}
-           breveDescripcion={bots.Iliana.breveDescripcion}
-           textoPrincipal={bots.Iliana.textoPrincipal}
-           foto={bots.Iliana.foto}
-           logo={bots.Iliana.logo}/>
-          </Grid>
-          <Grid
-            item
-            className={classes.cardWrapperHighlighted}
-            xs={12}
-            sm={6}
-            lg={4}
-            data-aos="zoom-in-up"
-            data-aos-delay="200"
-          >
-           <BotCard
            titulo={bots.Alberth.nombre}
            fechaLanzamiento={bots.Alberth.fechaLanzamiento}
            breveDescripcion={bots.Alberth.breveDescripcion}
@@ -179,6 +162,23 @@ function BotsSection(props) {
            textoPrincipal={bots.Alexa.textoPrincipal}
            foto={bots.Alexa.foto}
            logo={bots.Alexa.logo}/>
+          </Grid>
+          <Grid
+            item
+            className={classes.cardWrapperHighlighted}
+            xs={12}
+            sm={6}
+            lg={4}
+            data-aos="zoom-in-up"
+            data-aos-delay="200"
+          >
+           <BotCard
+           titulo={bots.Iliana.nombre}
+           fechaLanzamiento={bots.Iliana.fechaLanzamiento}
+           breveDescripcion={bots.Iliana.breveDescripcion}
+           textoPrincipal={bots.Iliana.textoPrincipal}
+           foto={bots.Iliana.foto}
+           logo={bots.Iliana.logo}/>
           </Grid>
          
           
