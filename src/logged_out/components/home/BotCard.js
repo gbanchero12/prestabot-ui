@@ -15,7 +15,8 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
-import PlayArrowIcon from '@material-ui/icons/PlayArrow';
+
+import DirectionSnackbar from './ConsecutiveSnackbars';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -105,7 +106,7 @@ export default function BotCard(props) {
             
           </Typography>
           <IconButton aria-label="share">
-          <PlayArrowIcon />
+          <DirectionSnackbar />
         </IconButton>
         </CardContent>
       </Collapse>
