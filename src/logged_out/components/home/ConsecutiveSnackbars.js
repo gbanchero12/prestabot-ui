@@ -47,7 +47,7 @@ export default function ConsecutiveSnackbars(props) {
   const classes = useStyles();
   return (
     <div>
-     <PlayArrowIcon onClick={handleClick('Habla con Tom para interactuar ⬇')}>Habla con Tom para interactuar ⬇</PlayArrowIcon>
+     <PlayArrowIcon onClick={handleClick('Habla con Tom para interactuar ↘')}>Habla con Tom para interactuar ⬇</PlayArrowIcon>
       
       <Snackbar
         key={messageInfo ? messageInfo.key : undefined}
