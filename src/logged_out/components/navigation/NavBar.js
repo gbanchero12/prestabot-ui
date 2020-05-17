@@ -13,6 +13,7 @@ import {
 import MenuIcon from "@material-ui/icons/Menu";
 import HomeIcon from "@material-ui/icons/Home";
 import NavigationDrawer from "../../../shared/components/NavigationDrawer";
+import BookIcon from '@material-ui/icons/Book';
 
 const styles = theme => ({
   appBar: {
@@ -58,11 +59,11 @@ function NavBar(props) {
       name: "Home",
       icon: <HomeIcon className="text-white" />
     },
-    /*{
+    {
       link: "/blog",
       name: "Blog",
       icon: <BookIcon className="text-white" />
-    },
+    },/*
     {
       name: "Register",
       onClick: openRegisterDialog,

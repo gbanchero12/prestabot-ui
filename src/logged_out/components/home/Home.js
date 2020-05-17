@@ -11,14 +11,14 @@ class Home extends PureComponent {
     const { selectHome } = this.props;
     selectHome();
   }
-
+//<LinkedinPost/>
   render() {
     return (
       <Fragment>
         <HeadSection />
         <FeatureSection />
         <BotsSection />
-        <LinkedinPost/>
+        
         <PricingSection />
       </Fragment>
     );
