@@ -27,7 +27,7 @@ const content = (
     </Typography>
 
     <Typography variant="h6" paragraph>
-      Ahorra tiempo y dinero:
+      Ahorra tiempo y dinero
     </Typography>
     <Typography paragraph>
       Los bots permiten ahorrar dinero estando disponibles las 24 horas del día para su negocio.
