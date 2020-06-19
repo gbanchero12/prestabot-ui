@@ -10,16 +10,20 @@ import fetch from 'node-fetch';
 
 const apiUrl = encodeURI("https://botsuruguay-web.herokuapp.com/blog");
 
-  //console.log("/////////////////" + apiUrl)
-  fetch(apiUrl,
-    {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      credentials: 'same-origin'
-    })
-    .then(response =>  console.log(response))
+fetch(apiUrl, {
+  method: 'GET',
+  credentials: 'same-origin',
+  headers: {
+    Accept: 'application/json'
+  },
+},
+).then(response => {
+  console.log(response.body)
+    response.json().then(json => {
+      console.log(json);
+    });
+  
+});
 
 
 
