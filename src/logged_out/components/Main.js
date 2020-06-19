@@ -12,7 +12,7 @@ import DialogSelector from "./register_login/DialogSelector";
 import Routing from "./Routing";
 import smoothScrollTop from "../../shared/functions/smoothScrollTop";
 import KommunicateChat from "./chat/chat";
-
+import fetch from 'node-fetch';
 
 AOS.init({ once: true });
 
@@ -29,14 +29,20 @@ class Main extends PureComponent {
     mobileDrawerOpen: false,
     blogPosts: [],
     dialogOpen: null,
-    cookieRulesDialogOpen: false
+    cookieRulesDialogOpen: false,
+    blogInformation: null,
   };
+
+  componentWillMount() {
+    this.fetchBlogPosts();
+    this.getInformation(this);
+}
 
   blogPostsMaxUnix = Math.round(new Date().getTime() / 1000);
 
-  componentDidMount() {
-    this.fetchBlogPosts();
-  }
+  
+
+ 
 
   selectHome = () => {
     smoothScrollTop();
@@ -90,6 +96,7 @@ class Main extends PureComponent {
     /**
      * You would fetch this from the server, however we gonna use the example values from state here
      */
+
     this.blogPostsMaxUnix = dummyBlogPosts[dummyBlogPosts.length - 1].date;
     const blogPosts = dummyBlogPosts.map(blogPost => {
       let title = blogPost.title;
@@ -109,6 +116,31 @@ class Main extends PureComponent {
     });
   };
 
+  getInformation = (object) => {
+    const apiUrl = encodeURI("https://botsuruguay-web.herokuapp.com/blog");
+
+    fetch(apiUrl, {
+  // mode: 'no-cors',
+  method: 'GET',
+  credentials: 'same-origin',
+  headers: {
+    Accept: 'application/json',
+  },
+},
+).then(response => {
+  console.log(response.body)
+    response.json().then(json => {
+      object.setState({
+        blogInformation : json
+      })
+    });
+  
+});
+
+    
+
+  }
+
   handleCookieRulesDialogOpen = () => {
     this.setState({ cookieRulesDialogOpen: true });
   };
@@ -117,16 +149,20 @@ class Main extends PureComponent {
     this.setState({ cookieRulesDialogOpen: false });
   };
 
-  render() {
+   render() {
     const { classes } = this.props;
     const {
       selectedTab,
       mobileDrawerOpen,
       blogPosts,
       dialogOpen,
-      cookieRulesDialogOpen
+      cookieRulesDialogOpen,
+      blogInformation
     } = this.state;
+
+    
     return (
+      
       <div className={classes.wrapper}>
         {!cookieRulesDialogOpen && (
           <CookieConsent
@@ -156,10 +192,11 @@ class Main extends PureComponent {
         />
         <Routing
           blogPosts={blogPosts}
+          blogInformation={blogInformation}
           selectHome={this.selectHome}
           selectBlog={this.selectBlog}
         />
-
+      {console.log(blogInformation)}
         <KommunicateChat />
         <Footer />
 

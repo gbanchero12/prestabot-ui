@@ -6,25 +6,9 @@ import blogPost3 from "./images/blogPost3.jpg";
 import blogPost4 from "./images/blogPost4.jpg";
 import blogPost5 from "./images/blogPost5.jpg";
 import blogPost6 from "./images/blogPost6.jpg";
-import fetch from 'node-fetch';
 
-let data;
-const apiUrl = encodeURI("https://botsuruguay-web.herokuapp.com/blog");
 
-fetch(apiUrl, {
-  method: 'GET',
-  credentials: 'same-origin',
-  headers: {
-    Accept: 'application/json'
-  },
-},
-).then(response => {
-  console.log(response.body)
-    response.json().then(json => {
-      data = json;
-    });
-  
-});
+
 
 
 
@@ -34,7 +18,7 @@ fetch(apiUrl, {
 const content = (
   <Fragment>
     <Typography variant="h5" paragraph>
-      {data.Titulo}
+      Titlu
     </Typography>
     <Typography paragraph>
       <li>Ahorra tiempo y dinero</li>
