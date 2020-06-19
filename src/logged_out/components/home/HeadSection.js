@@ -12,7 +12,7 @@ import {
   withWidth,
   isWidthUp
 } from "@material-ui/core";
-import headerImage from "../../dummy_data/images/agente.jpg";
+import headerImage from "../../dummy_data/images/header.gif";
 import WaveBorder from "../../../shared/components/WaveBorder";
 
 
@@ -122,13 +122,17 @@ function HeadSection(props) {
                     >
                       <Box mb={4}>
                         <Typography
-                          variant={isWidthUp("lg", width) ? "h4" : "h5"}
+                          variant={isWidthUp("lg", width) ? "h1" : "h2"}
+                          
                         >
-                         <h1> BotsUruguay</h1>
-                         <br/><br/>
-                        Una aplicación pensada para 
-                          la gestión de empresas.
+                         BotsUruguay
+                        
+                        
                         </Typography>
+                        <br></br>
+                        <br></br>
+                        <Typography  variant={isWidthUp("lg", width) ? "h4" : "h5"}>Una aplicación pensada para 
+                          la gestión de empresas.</Typography>
                       </Box>
                       <div>
                         <Box mb={2}>
@@ -154,11 +158,11 @@ function HeadSection(props) {
                     </Box>
                   </Grid>
                   <Hidden smDown>
-                    <Grid item md={6}>
-                      <a href="https://www.freepik.es/vector-gratis/agente-femenino-call-center_3148460.htm"><img
+                    <Grid xs={12} item md={6} >
+                      <a href="https://botsuruguay.com/blog"><img
                         src={headerImage}
                         className={classes.image}
-                        alt="header example"
+                        alt="header botsuruguay"
                       /></a>
                     </Grid>
                   </Hidden>

@@ -58,11 +58,7 @@ export default function BotCard(props) {
             
           </Avatar>
         }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
+        
         title={props.titulo}
         subheader={props.fechaLanzamiento}
       />
@@ -75,10 +71,12 @@ export default function BotCard(props) {
         <Typography variant="body2" color="textSecondary" component="p">
           {props.breveDescripcion}
         </Typography>
+        
       </CardContent>
+      
       <CardActions disableSpacing>
         
-       
+     <div onClick={handleExpandClick}> Más informacion</div>
         <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,

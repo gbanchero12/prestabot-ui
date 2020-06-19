@@ -147,7 +147,7 @@ function BotsSection(props) {
           
           <Grid
             item
-            alignContent="center"
+            
             className={classes.cardWrapperHighlighted}
             xs={12}
             sm={6}
