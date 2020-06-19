@@ -43,8 +43,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy":"https://botsuruguay-web.herokuapp.com",
-
+  "proxy": "https://botsuruguay-web.herokuapp.com",
   "eslintConfig": {
     "extends": "react-app"
   },

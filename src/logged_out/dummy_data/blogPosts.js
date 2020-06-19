@@ -7,10 +7,9 @@ import blogPost4 from "./images/blogPost4.jpg";
 import blogPost5 from "./images/blogPost5.jpg";
 import blogPost6 from "./images/blogPost6.jpg";
 import fetch from 'node-fetch';
-import functions from 'firebase-functions';
 
-
-const apiUrl = encodeURI(functions.config().proxy.url + "/blog");
+let data;
+const apiUrl = encodeURI("https://botsuruguay-web.herokuapp.com/blog");
 
 fetch(apiUrl, {
   method: 'GET',
@@ -22,7 +21,7 @@ fetch(apiUrl, {
 ).then(response => {
   console.log(response.body)
     response.json().then(json => {
-      console.log(json);
+      data = json;
     });
   
 });
@@ -35,7 +34,7 @@ fetch(apiUrl, {
 const content = (
   <Fragment>
     <Typography variant="h5" paragraph>
-      Algunos beneficios de utilizar chatbots con inteligencia artificial para tu empresa:
+      {data.Titulo}
     </Typography>
     <Typography paragraph>
       <li>Ahorra tiempo y dinero</li>
