@@ -7,8 +7,10 @@ import blogPost4 from "./images/blogPost4.jpg";
 import blogPost5 from "./images/blogPost5.jpg";
 import blogPost6 from "./images/blogPost6.jpg";
 import fetch from 'node-fetch';
+import functions from 'firebase-functions';
 
-const apiUrl = encodeURI("https://botsuruguay-web.herokuapp.com/blog");
+
+const apiUrl = encodeURI(functions.config().proxy.url + "/blog");
 
 fetch(apiUrl, {
   method: 'GET',
