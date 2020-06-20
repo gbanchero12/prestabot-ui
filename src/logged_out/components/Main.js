@@ -163,7 +163,7 @@ class Main extends PureComponent {
     
     return (
       
-      <div className={classes.wrapper}>
+      <main className={classes.wrapper}>
         {!cookieRulesDialogOpen && (
           <CookieConsent
             handleCookieRulesDialogOpen={this.handleCookieRulesDialogOpen}
@@ -200,7 +200,7 @@ class Main extends PureComponent {
         <KommunicateChat />
         <Footer />
 
-      </div>
+      </main>
     );
   }
 }
