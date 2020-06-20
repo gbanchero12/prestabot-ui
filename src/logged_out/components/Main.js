@@ -47,13 +47,13 @@ class Main extends PureComponent {
   selectHome = () => {
     smoothScrollTop();
     document.title =
-      "BotsUruguay - Con nuestro software gestioná tus clientes las 24 horas del día. Brindá una atención personalizada.";
+      "BotsUruguay";
     this.setState({ selectedTab: "Home" });
   };
 
   selectBlog = () => {
     smoothScrollTop();
-    document.title = "BotsUruguay - Blog";
+    document.title = "BotsUruguay";
     this.setState({ selectedTab: "Blog" });
   };
 

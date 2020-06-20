@@ -122,17 +122,16 @@ function HeadSection(props) {
                     >
                       <Box mb={4}>
                         <Typography
-                          variant={isWidthUp("lg", width) ? "h1" : "h2"}
                           
                         >
-                         BotsUruguay
+                         <h1>BotsUruguay</h1>
                         
                         
                         </Typography>
                         <br></br>
                         <br></br>
-                        <Typography  variant={isWidthUp("lg", width) ? "h4" : "h5"}>Una aplicación pensada para 
-                          la gestión de empresas.</Typography>
+                        <Typography> <h2>Una aplicación pensada para 
+                          la gestión de empresas.</h2></Typography>
                       </Box>
                       <div>
                         <Box mb={2}>
