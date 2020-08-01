@@ -8,7 +8,93 @@ import blogPost5 from "./images/blogPost5.jpg";
 import blogPost6 from "./images/blogPost6.jpg";
 
 
+const content2 = (<Fragment>
+  <Typography variant="h5" paragraph>
+  Próximas tendencias tecnológicas de chatbot
+  </Typography>
+  
+  <Typography paragraph>
+  Si algo hemos aprendido en las últimas décadas, es que cualquier avance cualitativo de cualquier empresa ha surgido precisamente del desarrollo y de la integración de tecnologías innovadoras. Empresas gigantes y de marcas reconocidas como Facebook o Amazon se han visto sumamente beneficiadas por la integración de tecnologías modernas, como por ejemplo la inteligencia artificial. Empresas como Tesla de Elon Musk, hacen un esfuerzo para que sociedades y otras empresas tengan la voluntad de no solo desarrollar nuevas tecnologías, sino también de integrarlas en sus nuevos modelos comerciales. 
+  </Typography>
 
+  <Typography paragraph>
+  Para nadie es un secreto que la inteligencia artificial puede ser un recurso fantástico para el crecimiento de cualquier empresa. De hecho, los chatbots ya pueden ser considerados como una parte esencial para cualquier empresa que desee dar un paso adelante a nivel tecnológico y en el mercado empresarial. De hecho, en un estudio reciente, se estima que para el año 2022, el 80% de todas las empresas a nivel global estarán modernizadas con este tipo de tecnologías y que chatbots desarrollados por compañías similares a nosotros, botsuruguay, serán esenciales para el crecimiento económico y empresarial de cualquier marca. 
+  </Typography>
+
+  <Typography paragraph>
+  Para la empresa Drift, una de las empresas desarrolladoras de chatbots más importantes e influyentes en el mundo, todas las empresas más importantes del planeta se benefician del uso de los chatbots en sus estrategias de marketing. IBM, Facebook, Apple o PayPal son solo algunos ejemplos de compañías que ya han dado un paso adelante desde hace unos años, en el desarrollo y en la implementación de la inteligencia artificial. Para el año 2022, también se estima que el 70% de la población mundial realice interacciones en línea a través de mensajería instantánea con tecnologías de inteligencia artificial, como los chatbots. 
+  </Typography>
+
+  <Typography paragraph>
+  En botsuruguay estamos conscientes de la importancia que tiene la implementación de la inteligencia artificial en las empresas, no solamente la calidad de servicio de las compañías ve un incremento significativo, sino que también entran en una corriente de ahorro económico tan importante que es imposible ignorar. Hemos creado una lista de las tendencias más relevantes respecto al desarrollo e implementación de los chatbots en las empresas. 
+  </Typography>
+
+  <Typography paragraph>
+  
+  </Typography>
+
+  <Typography paragraph>
+  Si algo hemos aprendido en las últimas décadas, es que cualquier avance cualitativo de cualquier empresa ha surgido precisamente del desarrollo y de la integración de tecnologías innovadoras. Empresas gigantes y de marcas reconocidas como Facebook o Amazon se han visto sumamente beneficiadas por la integración de tecnologías modernas, como por ejemplo la inteligencia artificial. Empresas como Tesla de Elon Musk, hacen un esfuerzo para que sociedades y otras empresas tengan la voluntad de no solo desarrollar nuevas tecnologías, sino también de integrarlas en sus nuevos modelos comerciales. 
+  </Typography>
+
+  <Typography paragraph>
+  Si algo hemos aprendido en las últimas décadas, es que cualquier avance cualitativo de cualquier empresa ha surgido precisamente del desarrollo y de la integración de tecnologías innovadoras. Empresas gigantes y de marcas reconocidas como Facebook o Amazon se han visto sumamente beneficiadas por la integración de tecnologías modernas, como por ejemplo la inteligencia artificial. Empresas como Tesla de Elon Musk, hacen un esfuerzo para que sociedades y otras empresas tengan la voluntad de no solo desarrollar nuevas tecnologías, sino también de integrarlas en sus nuevos modelos comerciales. 
+  </Typography>
+  
+  <Typography variant="h6" paragraph>
+  Inteligencia artificial más avanzada
+    </Typography>
+  
+    <Typography paragraph>
+    En estudios recientes se ha comprobado que al menos el 43% de la población mundial realiza interacciones en línea a través de mensajería instantánea, las cuales muchas veces son realizadas de forma continua con un chatbot. Este aumento exponencial de interacciones de los usuarios con los chatbots se debe a un importante avance tecnológico en la inteligencia artificial. 
+  </Typography>
+
+  <Typography paragraph>
+  La inteligencia artificial está avanzado muy rápidamente, y los chatbots cada vez son más humanos. Esta es una tendencia que se hace cada vez más recurrente con el paso de los años. Las conversaciones con los chatbots son cada vez más fluidas, lo que permite que los usuarios se sientan más cómodos y a gusto con esta clase de servicios. 
+  </Typography>
+
+  <Typography paragraph>
+  En botsuruguay sabemos que esta tendencia es una gran ventaja para cualquier empresa, ya que las compañías pueden generar grandes cantidades de ahorro de forma exponencial con el transcurso de cada año al no tener que contratar personal humano que interactué con los usuarios. Empresas como Amazon o Netflix ya se están visto beneficiadas por este tipo de tendencias. De hecho, IBM afirma que para el 2022, más de 8 mil millones de dólares se ahorraran de forma conjunta, entre todas las empresas que usen este tipo de tecnologías. 
+  </Typography>
+
+
+  <Typography paragraph>
+  Si algo hemos aprendido en las últimas décadas, es que cualquier avance cualitativo de cualquier empresa ha surgido precisamente del desarrollo y de la integración de tecnologías innovadoras. Empresas gigantes y de marcas reconocidas como Facebook o Amazon se han visto sumamente beneficiadas por la integración de tecnologías modernas, como por ejemplo la inteligencia artificial. Empresas como Tesla de Elon Musk, hacen un esfuerzo para que sociedades y otras empresas tengan la voluntad de no solo desarrollar nuevas tecnologías, sino también de integrarlas en sus nuevos modelos comerciales. 
+  </Typography>
+  
+  <Typography variant="h6" paragraph>
+  Los chatbots no solamente están para la mensajería instantánea 
+    </Typography>
+  
+    <Typography paragraph>
+    Según un estudio reciente realizado por la empresa Global Market Insights, todas las empresas que decidan hacer uso de la inteligencia artificial a través de los chatbots tienen unas grandes probabilidades de obtener reducciones de costos y ahorros en el sector de servicio al cliente. Este tipo de inteligencia artificial puede ejecutar acciones de soporte como cambios de contraseña o solicitudes de pedido, entre muchas otras, sin la intervención y supervisión de una persona. 
+  </Typography>
+
+  <Typography paragraph>
+  Un reflejo de este estudio es la capacidad que posee la IA al momento de interactuar y atender las solicitudes de los usuarios. De hecho, el avance tecnológico de los chatbots de empresas como botsuruguay, ha sido tan significativo, que estos pueden obtener excelentes resultados en áreas de servicio al cliente, como por ejemplo en los call centers. 
+  </Typography>
+
+  <Typography paragraph>
+  Esto es un beneficio para cualquier tipo de compañía. Este tipo de tendencia es el reflejo de que los chatbots son un tipo de tecnología que se puede adaptar cualquier clase de empresa. Desde compañías de e-commerce hasta empresas de telefonía. 
+  </Typography>
+
+  <Typography variant="h6" paragraph>
+  Fundamentales en el marketing 
+    </Typography>
+  
+    <Typography paragraph>
+    Gracias a muchos estudios y encuestas, las empresas de cualquier área de servicio pueden estar a la vanguardia en cuanto al uso de chatbots, desarrollados por empresas como nosotros, botsuruguay. En estudios recientes se ha podido comprobar que para el 2021, al menos el 67% de la población mundial va a preferir adquirir productos y servicios por Internet. 
+  </Typography>
+
+  <Typography paragraph>
+  Esto puede ser muy beneficioso para cualquier compañía que desee crecer a nivel empresarial y comercial. Los chatbots no solamente son útiles para interactuar con los usuarios a través de servicios al cliente o mensajería instantánea, de hecho, como nueva tendencia, los chatbots pueden ser muy eficientes para lograr que las personas se involucren con la marca de una empresa. 
+  </Typography>
+
+  <Typography paragraph>
+  A través de los chatbots, las empresas pueden obtener información privilegiada de sus clientes mediante conversaciones e interacciones con preguntas específicas para determinar que les gusta y que no. Esto es útil, ya que las compañías pueden ahorrarse grandes cantidades de inversiones que estén destinados al marketing. Podrán darles a los usuarios los productos y servicios que ellos deseen.
+  </Typography>
+  
+</Fragment>)
 
 
 
@@ -132,20 +218,20 @@ export default [
     title: "Beneficios de utilizar bots para tu empresa",
     id: 1,
     date: 1589782600,
-    imageSrc: blogPost1,
+    imageSrc: "blogPost1",
     snippet:
       "Ahorra tiempo y dinero, potencia tus ofertas, agiliza el proceso de cobro...",
     content: content
-  }/*,
+  },
   {
-    title: "Post 2",
+    title: "Próximas tendencias tecnológicas de chatbot",
     id: 2,
     date: 1576391600,
-    imageSrc: blogPost2,
+    imageSrc: "blogPost2",
     snippet:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-    content: content
-  },
+      "Si algo hemos aprendido en las últimas décadas, es que cualquier avance cualitativo de cualquier empresa...",
+    content: content2
+  },/*
   {
     title: "Post 3",
     id: 3,

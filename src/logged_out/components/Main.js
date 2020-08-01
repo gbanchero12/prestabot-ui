@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React, { PureComponent, Fragment } from "react";
 import PropTypes from "prop-types";
 import AOS from "aos/dist/aos";
 import { withStyles } from "@material-ui/core";
@@ -13,6 +13,7 @@ import Routing from "./Routing";
 import smoothScrollTop from "../../shared/functions/smoothScrollTop";
 import KommunicateChat from "./chat/chat";
 import fetch from 'node-fetch';
+import { Typography } from "@material-ui/core";
 
 AOS.init({ once: true });
 
@@ -34,15 +35,17 @@ class Main extends PureComponent {
   };
 
   componentWillMount() {
-    this.fetchBlogPosts();
     this.getInformation(this);
-}
+
+    this.fetchBlogPosts();
+
+  }
 
   blogPostsMaxUnix = Math.round(new Date().getTime() / 1000);
 
-  
 
- 
+
+
 
   selectHome = () => {
     smoothScrollTop();
@@ -109,6 +112,9 @@ class Main extends PureComponent {
       title = title.replace(/\s/g, "-");
       blogPost.url = `/blog/post/${title}`;
       blogPost.params = `?id=${blogPost.id}`;
+      console.log(blogPost.content);
+      blogPost.content = this.handleContent(blogPost.content);
+
       return blogPost;
     });
     this.setState({
@@ -116,25 +122,135 @@ class Main extends PureComponent {
     });
   };
 
+  handleContent = async (content) => {
+    if (Array.isArray(content)) {
+      console.log(content)
+      await content.array.forEach(blogInformation => {
+        return (
+          <div>
+            {console.log(blogInformation.Titulo)}
+            <Fragment>
+              <Typography variant="h5" paragraph>
+                {blogInformation.Titulo}
+              </Typography>
+
+              <Typography variant="h6" paragraph>
+                {blogInformation.listaBeneficios.titulo}
+              </Typography>
+
+              <Typography paragraph>
+                {blogInformation.listaBeneficios.desc}
+              </Typography>
+
+              <Typography variant="h6" paragraph>
+                {blogInformation.listaBeneficios.titulo2}
+              </Typography>
+
+              <Typography paragraph>
+                {blogInformation.listaBeneficios.desc2}
+              </Typography>
+
+              <Typography variant="h6" paragraph>
+                {blogInformation.listaBeneficios.titulo3}
+              </Typography>
+
+              <Typography paragraph>
+                {blogInformation.listaBeneficios.desc3}
+              </Typography>
+
+              <Typography variant="h6" paragraph>
+                {blogInformation.listaBeneficios.titulo4}
+              </Typography>
+
+              <Typography paragraph>
+                {blogInformation.listaBeneficios.desc4}
+              </Typography>
+
+              <Typography variant="h6" paragraph>
+                {blogInformation.listaBeneficios.titulo5}
+              </Typography>
+
+              <Typography paragraph>
+                {blogInformation.listaBeneficios.desc5}
+              </Typography>
+
+              <Typography variant="h6" paragraph>
+                {blogInformation.listaBeneficios.titulo6}
+              </Typography>
+
+              <Typography paragraph>
+                {blogInformation.listaBeneficios.desc6}
+              </Typography>
+
+              <Typography variant="h6" paragraph>
+                {blogInformation.listaBeneficios.tituo7}
+              </Typography>
+
+              <Typography paragraph>
+                {blogInformation.listaBeneficios.desc7}
+              </Typography>
+
+              <Typography variant="h6" paragraph>
+                {blogInformation.listaBeneficios.titulo8}
+              </Typography>
+
+              <Typography paragraph>
+                {blogInformation.listaBeneficios.desc8}
+              </Typography>
+
+              <Typography variant="h6" paragraph>
+                {blogInformation.listaBeneficios.titulo9}
+              </Typography>
+
+              <Typography paragraph>
+                {blogInformation.listaBeneficios.desc9}
+              </Typography>
+
+              <Typography variant="h6" paragraph>
+                {blogInformation.listaBeneficios.titulo10}
+              </Typography>
+
+              <Typography paragraph>
+                {blogInformation.listaBeneficios.desc10}
+              </Typography>
+
+              <Typography variant="h6" paragraph>
+                {blogInformation.listaBeneficios.titulo11}
+              </Typography>
+
+              <Typography paragraph>
+                {blogInformation.listaBeneficios.desc11}
+              </Typography>
+
+              <Typography paragraph>
+                {blogInformation.listaBeneficios.desc12}
+              </Typography>
+
+            </Fragment>
+
+          </div>);
+      });
+    }
+  }
+
   getInformation = (object) => {
-    const apiUrl = encodeURI("https://botsuruguay-web.herokuapp.com/blog");
+    //https://botsuruguay-web.herokuapp.com/blog
+    const apiUrl = encodeURI("http://localhost:3000/blog");
 
     fetch(apiUrl, {
   // mode: 'no-cors',
   method: 'GET',
-  credentials: 'same-origin',
   headers: {
     Accept: 'application/json',
   },
 },
 ).then(response => {
-  console.log(response.body)
+  if(response.ok)
     response.json().then(json => {
       object.setState({
         blogInformation : json
       })
     });
-  
 });
 
     
@@ -149,7 +265,7 @@ class Main extends PureComponent {
     this.setState({ cookieRulesDialogOpen: false });
   };
 
-   render() {
+  render() {
     const { classes } = this.props;
     const {
       selectedTab,
@@ -160,9 +276,9 @@ class Main extends PureComponent {
       blogInformation
     } = this.state;
 
-    
+
     return (
-      
+
       <main className={classes.wrapper}>
         {!cookieRulesDialogOpen && (
           <CookieConsent
@@ -196,7 +312,7 @@ class Main extends PureComponent {
           selectHome={this.selectHome}
           selectBlog={this.selectBlog}
         />
-      {console.log(blogInformation)}
+        {console.log(blogInformation)}
         <KommunicateChat />
         <Footer />
 

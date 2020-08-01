@@ -12,7 +12,7 @@ function Routing(props) {
   const { blogPosts, selectBlog, selectHome, blogInformation } = props;
 
   
-console.log(blogInformation);
+
 
   let blogContent = blogInformation === null ? null :  (<div>
     <Fragment>

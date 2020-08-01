@@ -17,8 +17,7 @@ class Home extends PureComponent {
       <Fragment>
         <HeadSection />
         <FeatureSection />
-        <BotsSection />    
-        <PricingSection />
+        <BotsSection />   
       </Fragment>
     );
   }
